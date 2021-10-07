@@ -9,4 +9,26 @@ ol {
 a {
   text-decoration: none; }
 
+.inner {
+  width: 1180px;
+  margin: 100px auto; }
+  .inner #gallery, .inner #gallery2 {
+    width: 100%; }
+    .inner #gallery ul::after, .inner #gallery2 ul::after {
+      content: '';
+      display: block;
+      clear: both; }
+    .inner #gallery ul li, .inner #gallery2 ul li {
+      float: left;
+      width: calc(100% / 3);
+      margin-bottom: 30px; }
+      .inner #gallery ul li a, .inner #gallery2 ul li a {
+        display: block;
+        width: 100%;
+        height: 600px; }
+        .inner #gallery ul li a img, .inner #gallery2 ul li a img {
+          width: 90%;
+          height: 80%;
+          object-fit: cover; }
+
 /*# sourceMappingURL=style.css.map */
